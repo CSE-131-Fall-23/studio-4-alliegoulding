@@ -1,5 +1,7 @@
 package studio4;
 
+import java.awt.Color;
+
 import javax.swing.JOptionPane;
 import javax.swing.SwingUtilities;
 
@@ -29,23 +31,35 @@ public class NorwayMotherOfAllFlags {
 	}
 
 	public static void france() {
+		StdDraw.clear();
+		StdDraw.setPenColor(0, 85, 164);
+		StdDraw.filledRectangle(3.67, 8, 3.67, 8);
 		
-		// TODO
+		StdDraw.setPenColor(Color.RED);
+		StdDraw.filledRectangle(18.34, 8, 3.67, 8);
+	
 	}
 
 	public static void indonesia() {
-		
-		// TODO
+		StdDraw.clear();
+		StdDraw.setPenColor(Color.RED);
+		StdDraw.filledRectangle(11, 12, 11, 4);
+	
 	}
 
 	public static void netherlands() {
+		StdDraw.clear();
+		StdDraw.setPenColor(Color.RED);
+		StdDraw.filledRectangle(11, 13.33, 11, 2.67);
 		
-		// TODO
+		StdDraw.setPenColor(0, 85, 164);
+		StdDraw.filledRectangle(11, 2.67, 11, 2.67);
 	}
 
 	public static void poland() {
-		
-		// TODO
+		StdDraw.clear();
+		StdDraw.setPenColor(Color.RED);
+		StdDraw.filledRectangle(11, 4, 11, 4);
 	}
 
 	public static void thailand() {
